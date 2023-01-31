@@ -9,7 +9,7 @@ import FRAL from "../assets/clientes/FRAL.svg";
 import GERDAU from "../assets/clientes/GERDAU.svg";
 import InstitutoDeBotanica from "../assets/clientes/InstitutoDeBotanica.svg";
 import IOUsp from "../assets/clientes/IOUsp.svg";
-import Lampazul from "../assets/clientes/Lampazul.svg";
+import LAMPazul from "../assets/clientes/LAMPazul.svg";
 import Laquimar from "../assets/clientes/Laquimar.svg";
 import oqeisso from "../assets/clientes/oqeisso.svg";
 import Sigeo from "../assets/clientes/Sigeo.svg";
@@ -33,7 +33,7 @@ export default function Clientes() {
     UniversidadeFederalDoEspiritoSanto,
     InstitutoDeGeociencias,
     Sigeo,
-    Lampazul,
+    LAMPazul,
     CPTI,
     DTAengenharia,
     FOSengenharia,
@@ -74,6 +74,7 @@ export default function Clientes() {
         {imagensDeClientes.map((imagem, key) => {
           return (
             <div
+              key={key.toString()}
               className="rounded border border-blue-800 p-2 
               h-20 xxs:h-20 sm:w-32 sm:h-32 
             flex justify-center"

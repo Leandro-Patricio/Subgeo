@@ -40,6 +40,7 @@ export default function Procura() {
         {pagesAndTextWithWordSearched.map((pagina: any, key) => {
           return (
             <div
+              key={key.toString()}
               className="flex flex-col gap-2 text-titleServicos font-openSans
             pt-4
             border-t border-lines_breaks"

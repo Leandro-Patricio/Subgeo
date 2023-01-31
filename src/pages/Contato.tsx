@@ -72,7 +72,7 @@ export default function Contato() {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:3000/Obrigado"
+            value="https://subgeo-original-leandro-patricio.vercel.app/Obrigado"
           />
           <input type="hidden" name="_subject" value={`Novo email Subgeo}`} />
           <input type="hidden" name="_captcha" value="false" />
