@@ -95,18 +95,21 @@ export default function Home() {
             <Image
               src={ServicosSubgeo1}
               alt="Serviços oferecidos pela SubGeo"
+              className="w-full"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={ServicosSubgeo2}
               alt="Serviços oferecidos pela SubGeo"
+              className="w-full"
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src={ServicosSubgeo3}
               alt="Serviços oferecidos pela SubGeo"
+              className="w-full"
             />
           </SwiperSlide>
         </Swiper>
